@@ -1,0 +1,43 @@
+body{
+	margin:0;
+}
+#header{
+	width:100%;
+	height: 800px;
+	position:absolute;
+	background-color: black;
+	opacity: 0.5;
+}
+#wrapper{
+	width: 100%;
+	height:100%;
+	position: absolute;
+	background-repeat: no-repeat cover;
+	margin-top: 800px;
+}
+#nav {
+  width: 310px;
+  height: 50px;
+  margin-top: 800px;
+  background-color: black;
+  position: absolute;
+  border-radius: 25px solid White;
+  margin-left: 30px;
+}
+
+li {
+  width: 100px;
+  background-color: rgba(0,0,0,1);
+  float: left;
+  height: 50px;
+  text-align: center;
+  font-family: helvetica;
+  color: GoldenRod;
+  list-style: none
+ }
+
+li:hover {
+  background-color: MistyRose;
+  color: MediumBlue;
+  font-family: Lucida Console;
+}
